@@ -190,6 +190,21 @@ body {
     background-color: #333;
 }
 
+.download-button.tertiary {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #b6b5b0;
+}
+
+/* Tertiary button hover */
+.download-button.tertiary:hover {
+    background-color: #dbdbd7;
+}
+
+/* Tertiary button pressed state */
+.download-button.tertiary:active {
+    background-color: #dbdbd7;
+}
 /* Fixed badge shown at top center */
 .page-label {
     position: fixed;
